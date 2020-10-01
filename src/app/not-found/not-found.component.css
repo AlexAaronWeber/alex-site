@@ -1,0 +1,6 @@
+.home {
+  cursor: pointer;
+  color: blue;
+  border-bottom: 1px solid black;
+  outline: none;
+}
