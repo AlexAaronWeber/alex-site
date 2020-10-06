@@ -13,7 +13,12 @@ li,
 ol,
 p,
 button {
-  /* margin: 0px;
-  padding: 0px; */
+  width: 100%;
+  height: 100%;
   outline: none;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
 }

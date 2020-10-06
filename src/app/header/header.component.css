@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+
+.aw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+}
+
+.header-nav {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .aw {
+    margin-left: 20px;
+    justify-content: flex-start;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  .hover:hover {
+    cursor: pointer;
+    color: coral;
+  }
+}
