@@ -26,12 +26,16 @@ li {
   color: white;
 }
 
+.active {
+  color: coral;
+}
+
 @media screen and (min-width: 768px) {
   .mobile-footer-nav {
     display: none;
   }
   .contact {
-    margin-right: 5px;
+    margin-right: 20px;
     display: flex;
     justify-content: flex-end;
     color: white;
@@ -44,8 +48,8 @@ li {
   }
 
   .space {
-    /* margin-right: 10px; */
-    /* padding-right: 10px; */
+    margin-right: 10px;
+    padding-right: 10px;
     border-right: 2px solid white;
   }
 }

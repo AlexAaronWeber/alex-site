@@ -1,4 +1,4 @@
-<div class="header">
+<!-- <div class="header">
   <nav class="nav">
     <h1 class="aw hover" routerLink="/home">AW</h1>
     <ul class="header-nav">
@@ -9,4 +9,43 @@
       <li class="hover">Contact</li>
     </ul>
   </nav>
-</div>
+</div> -->
+
+<nav class="nav">
+  <h1 (click)="onClick(1)" class="aw hover" routerLink="/home">AW</h1>
+  <ul class="header-nav">
+    <li
+      (click)="onClick(1)"
+      [ngClass]="{ active: navItem === 'navItem1' }"
+      class="hover nav-item"
+      routerLink="/home"
+    >
+      Home
+    </li>
+    <li
+      (click)="onClick(2)"
+      [ngClass]="{ active: navItem === 'navItem2' }"
+      class="hover nav-item"
+      routerLink="/about"
+    >
+      About
+    </li>
+
+    <li
+      (click)="onClick(3)"
+      [ngClass]="{ active: navItem === 'navItem3' }"
+      class="hover nav-item"
+      routerLink="/projects"
+    >
+      Projects
+    </li>
+    <li
+      (click)="onClick(4)"
+      [ngClass]="{ active: navItem === 'navItem4' }"
+      class="hover nav-item"
+      routerLink="/contact"
+    >
+      Contact
+    </li>
+  </ul>
+</nav>
