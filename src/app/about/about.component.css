@@ -1,0 +1,13 @@
+.highlight {
+  text-decoration: none;
+  color: black;
+}
+
+.highlight:hover {
+  color: coral;
+  text-decoration: underline;
+}
+
+.about {
+  overflow: scroll;
+}

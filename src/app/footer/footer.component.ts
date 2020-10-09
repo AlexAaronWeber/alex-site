@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActiveNavService } from '../active-nav.service';
 
 @Component({
   selector: 'app-footer',
@@ -6,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css'],
 })
 export class FooterComponent implements OnInit {
-  navItem: any;
-  navItem1: any;
-  navItem2: any;
-  navItem3: any;
-  navItem4: any;
+  navItem: any = this.service.navItem;
+  navItem1: any = this.service.navItem1;
+  navItem2: any = this.service.navItem2;
+  navItem3: any = this.service.navItem3;
+  navItem4: any = this.service.navItem4;
   isActive: boolean;
 
-  constructor() {}
+  constructor(private service: ActiveNavService) {}
 
   ngOnInit(): void {}
 

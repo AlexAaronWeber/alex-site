@@ -1,0 +1,11 @@
+.highlight {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.highlight:hover {
+  font-size: 30px;
+  color: coral;
+  text-decoration: underline;
+}
