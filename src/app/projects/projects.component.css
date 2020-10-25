@@ -1,16 +1,68 @@
 .main {
+  height: 100%;
+  overflow: scroll;
   display: flex;
   justify-content: center;
 }
 
+.space {
+  height: 40px;
+  margin: 40px;
+}
+
 .page-container {
+  background-color: black;
   justify-content: start;
+  height: 800px;
+  width: 600px;
   margin-top: 200px;
   padding: 0px 100px;
   border: 1px solid black;
+  border-radius: 10px;
+  overflow: scroll;
 }
 
 .h1 {
+  color: coral;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: coral;
+  width: 125px;
+}
+
+a:hover {
+  color: white;
+}
+
+.scrums {
+  color: coral;
+  font-family: "Grenze Gotisch", cursive;
+}
+
+.cinema {
+  color: coral;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.wellbeing {
+  color: coral;
+  font-family: "Righteous", cursive;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid white;
+  padding-bottom: 15px;
+}
+
+.text {
+  color: coral;
+  font-size: 20px;
   display: flex;
   justify-content: center;
 }
